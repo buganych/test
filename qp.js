@@ -406,7 +406,7 @@ var tooltip_1 = __webpack_require__(6);
 var node_1 = __webpack_require__(0);
 exports.Node = node_1.Node;
 var qpXslt = __webpack_require__(7);
-function showPlan(container, planXml, options) {
+export function showPlan(container, planXml, options) {
     options = setDefaults(options, {
         jsTooltips: true
     });
